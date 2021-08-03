@@ -1,0 +1,14 @@
+body {
+	background-color: #036e73;
+}
+
+div {
+	border-style: groove;
+	border-radius: 25px;
+	background: white;
+}
+
+h1, h2, h3 {
+	font-family:"Arial", sans-serif;
+	<!-- color: #730803;
+}
