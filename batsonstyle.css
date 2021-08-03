@@ -1,4 +1,4 @@
-/* Changes font and background color for the whole page */
+/* Changes font and background color for the whole page. */
 body {
 	background-color: #036e73;
 	font-family:"Arial", sans-serif;
@@ -14,6 +14,11 @@ div {
 	padding: 5px 10px;
 }
 
+/*Increases font size of p element text. */
+div > p {
+	font-size: 18px;
+}
+
 /* Makes the image a circle and applies a groove border to it. 
    Also ensures the image always fits the box when resized. */
 img {
@@ -24,17 +29,22 @@ img {
 	object-fit: contain;
 }
 
-/* Centers headings within Work Experience, Education, Certifications, and Skills */
-.qualifications {
-	text-align: center;
-}
-
 /*Keeps bullet points left aligned.*/
 li {
 	text-align: left;
 }
 
-/* Changes bullets to a medium gray color */
+/* Centers headings within Work Experience, Education, Certifications, and Skills. */
+.qualifications {
+	text-align: center;
+}
+
+/* Changes date ranges to italic font. */
+.work_dates {
+	font-style: italic;
+}
+
+/* Changes bullets to a medium gray color. */
 .bullet  {
 	color: #777777;
 }
@@ -54,4 +64,6 @@ li {
 	text-align: center;
 	width: 25%;
 	margin: auto;
+	position: sticky;
+	bottom: 0;
 }
