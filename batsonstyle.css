@@ -7,25 +7,31 @@ div {
 	border-style: groove;
 	border-radius: 25px;
 	background: white;
-}
-
-h2 {
-	font-size: .9em;
+	margin: 5px 5px;
+	padding: 5px 10px;
 }
 
 img {
 	border-style: groove;
 	border-radius: 180px;
-	float: right;
+	object-fit: cover;
+}
+.qualifications h3 {
+	text-align: center;
+}
+
+.bullet  {
+	color: #777777;
 }
 
 #name_and_job {
 	text-align: center;
 	padding: 5px;
-	float: left;
+	margin: auto;
+	width: 50%;
 }
 
-#links {
+#my_pages {
 	text-align: center;
 	float: right;
 }
