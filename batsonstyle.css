@@ -1,5 +1,6 @@
 body {
 	background-color: #036e73;
+	font-family:"Arial", sans-serif;
 }
 
 div {
@@ -8,7 +9,14 @@ div {
 	background: white;
 }
 
+img {
+	border-style; groove;
+	border-radius: 25px;
+}
+
 h1, h2, h3 {
-	font-family:"Arial", sans-serif;
-	<!-- color: #730803;
+}
+
+#links {
+	text-align: center;
 }
