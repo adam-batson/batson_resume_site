@@ -9,14 +9,23 @@ div {
 	background: white;
 }
 
-img {
-	border-style; groove;
-	border-radius: 25px;
+h2 {
+	font-size: .9em;
 }
 
-h1, h2, h3 {
+img {
+	border-style: groove;
+	border-radius: 180px;
+	float: right;
+}
+
+#name_and_job {
+	text-align: center;
+	padding: 5px;
+	float: left;
 }
 
 #links {
 	text-align: center;
+	float: right;
 }
