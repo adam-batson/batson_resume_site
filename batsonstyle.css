@@ -1,29 +1,46 @@
+/* Changes font and background color for the whole page */
 body {
 	background-color: #036e73;
 	font-family:"Arial", sans-serif;
 }
 
+/* Allows content sections to be within boxes that are not the same color as the background.
+   Ensures 5px margin between sections but allows horizontal scaling. */
 div {
 	border-style: groove;
 	border-radius: 25px;
-	background: white;
-	margin: 5px 5px;
+	background: rgb(230, 230, 230, .8);
+	margin: 5px auto;
 	padding: 5px 10px;
 }
 
+/* Makes the image a circle and applies a groove border to it. 
+   Also ensures the image always fits the box when resized. */
 img {
 	border-style: groove;
 	border-radius: 180px;
-	object-fit: cover;
+	height: 25%;
+	width: 25%;
+	object-fit: contain;
 }
-.qualifications h3 {
+
+/* Centers headings within Work Experience, Education, Certifications, and Skills */
+.qualifications {
 	text-align: center;
 }
 
+/*Keeps bullet points left aligned.*/
+li {
+	text-align: left;
+}
+
+/* Changes bullets to a medium gray color */
 .bullet  {
 	color: #777777;
 }
 
+/* Centers the box with photo, name, job, and location.
+   Allows scaling of the section to fit different viewport sizes. */
 #name_and_job {
 	text-align: center;
 	padding: 5px;
@@ -31,7 +48,10 @@ img {
 	width: 50%;
 }
 
+/* Centers the link box and text inside the box.
+   Allows scaling of the section to fit different viewport sizes. */
 #my_pages {
 	text-align: center;
-	float: right;
+	width: 25%;
+	margin: auto;
 }
